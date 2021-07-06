@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+head, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Universal classes */
+.container{
+
+}
+
+.heading3{
+  color: #111;
+  font-size: 1.25rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.text1{
+  color: #111;
+  font-size: 1rem;
+}
+
+.spacing{
+  padding-bottom: 1rem;
+}
+
+/*Name, description and dark theme toggle */
+.name-toggle{
+
+}
+
+.heading1{
+  color: #FFA500;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.theme-toggle{
+
+}
+
+.heading2{
+  color: #111;
+  font-size: 1.5rem;
+  padding-top: -1rem;
+}
+
+/* Socials */
+.socials-img{
+
+
+}
+.fa-envelope{
+  color: #c71610;
+}
+.fa-linkedin{
+  color: #007bb5;
+}
+.fa-github-square{
+  color: #111;
+}
+.fa-instagram{
+  color: #e95950;
+}
+/* About Me */
+
+/* Projects */
+.heading4{
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.text2{
+  color: #FFA500;
+  font-size: 1rem;
+}
+
+.project-container{
+  padding-bottom: 2rem;
+}
+/* Portfolio */
+
+
+/* Media Queries */
+/* Tablet */
+@media screen and (min-width:640px) {
+
+/* Laptop */
+@media screen and (min-width:769px) {
+
+/* Large Screen */
+@media screen and (min-width:1300px) {
+}
