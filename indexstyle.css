@@ -30,12 +30,12 @@ head, body {
 }
 
 .spacing{
-  margin: 5rem auto 5rem;
+  margin: 2rem auto 2rem;
 }
 
 /*Name, description and dark theme toggle */
 .divName{
-  margin: 10rem auto 1rem;
+  margin: 2rem auto 1rem;
 }
 
 .heading1{
@@ -64,10 +64,6 @@ head, body {
 }
 
 /* Socials */
-.socials-img{
-
-
-}
 .fa-envelope{
   color: #c71610;
 }
@@ -109,10 +105,31 @@ head, body {
 /* Media Queries */
 /* Tablet */
 @media screen and (min-width:640px) {
+  .divName{
+    margin: 10rem auto 1rem;
+  }
+  .spacing{
+    margin: 5rem auto 5rem;
+  }
+}
+
 
 /* Laptop */
 @media screen and (min-width:769px) {
+  .divName{
+    margin: 10rem auto 1rem;
+  }
+  .spacing{
+    margin: 5rem auto 5rem;
+  }
+}
 
 /* Large Screen */
 @media screen and (min-width:1300px) {
+  .divName{
+    margin: 10rem auto 1rem;
+  }
+  .spacing{
+    margin: 5rem auto 5rem;
+  }
 }
