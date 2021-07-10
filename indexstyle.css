@@ -9,8 +9,12 @@ head, body {
 }
 
 /* Universal classes */
-.container{
-
+.divMain{
+  max-width: 720px;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin:0 auto;
 }
 
 .heading3{
@@ -26,12 +30,12 @@ head, body {
 }
 
 .spacing{
-  padding-bottom: 1rem;
+  margin: 5rem auto 5rem;
 }
 
 /*Name, description and dark theme toggle */
-.name-toggle{
-
+.divName{
+  margin: 10rem auto 1rem;
 }
 
 .heading1{
@@ -40,8 +44,17 @@ head, body {
   font-weight: bold;
 }
 
-.theme-toggle{
-
+.theme-toggle input[type="checkbox"]{
+  display: none;
+  }
+.theme-toggle input[type="checkbox"] + label{
+  background-image: url("Images/moon1.png");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 30px;
+}
+.theme-toggle input[type="checkbox"]:checked + label {
+  background-image: url("Images/sunny1.png");
 }
 
 .heading2{
@@ -68,6 +81,12 @@ head, body {
   color: #e95950;
 }
 /* About Me */
+.p-padding {
+  padding-bottom: 1rem;
+}
+
+
+
 
 /* Projects */
 .heading4{
@@ -85,7 +104,9 @@ head, body {
   padding-bottom: 2rem;
 }
 /* Portfolio */
-
+.portfoio-imgs {
+  padding-bottom: 1rem;
+}
 
 /* Media Queries */
 /* Tablet */

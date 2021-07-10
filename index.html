@@ -30,102 +30,123 @@
     </head>
 
     <body>
-      <!-- Name, description and dark theme toggle -->
-      <div class="container">
-        <div class="row name-toggle">
-          <!-- Name -->
-          <div class="col-8 heading1">Aahil Dawoodani</div>
-          <!-- Toggle -->
-          <div class="col-4 align-self-center">
-            <div class="theme-toggle custom-control custom-switch">
-              <input type="checkbox" class="custom-control-input" id="darkSwitch">
-              <label class="custom-control-label" for="darkSwitch"></label>
-              <script src="DarkMode/dark-mode-switch.min.js"></script>
+      <!-- Main Div -->
+      <div class="divMain">
+
+        <!-- Name, description and dark theme toggle -->
+        <div class="container divName">
+            <!-- Name -->
+            <div class="heading1">Aahil Dawoodani</div>
+            <!-- Description and Toggle -->
+            <div class="row name-toggle">
+              <!-- Description -->
+              <div class="col-6 heading2">Software and Data Engineer</div>
+              <!-- Toggle -->
+              <div class="col-6 align-self-center">
+                <div class="theme-toggle custom-control custom-switch">
+                  <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                  <label class="custom-control-label" for="darkSwitch"></label>
+                  <script src="DarkMode/dark-mode-switch.js"></script>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <!-- Socials-->
+        <div class="container ">
+          <div class="row">
+            <!-- Images -->
+            <div class="col-auto socials-img">
+              <a href="https://github.com/AahilD" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="col-auto socials-img">
+              <a href="https://www.linkedin.com/in/aahildawoodani/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="col-auto socials-img">
+              <a href="https://github.com/AahilD" target="_blank"><i class="fab fa-github-square"></i></a>
+            </div>
+            <div class="col-auto socials-img">
+              <a href="https://www.instagram.com/its_aahil" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
         </div>
-        <div class="heading2">Software and Data Engineer</div>
-      </div>
 
-      <!-- Socials-->
-      <div class="container spacing">
-        <div class="row">
-          <!-- Images -->
-          <div class="col-auto socials-img">
-            <a href="https://github.com/AahilD" target="_blank"><i class="fas fa-envelope"></i></a>
-          </div>
-          <div class="col-auto socials-img">
-            <a href="https://www.linkedin.com/in/aahildawoodani/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          </div>
-          <div class="col-auto socials-img">
-            <a href="https://github.com/AahilD" target="_blank"><i class="fab fa-github-square"></i></a>
-          </div>
-          <div class="col-auto socials-img">
-            <a href="https://www.instagram.com/its_aahil" target="_blank"><i class="fab fa-instagram"></i></a>
+        <!-- About me -->
+        <div class="container spacing">
+          <div class="heading3">About</div>
+          <div class="text1">
+            <p class="p-padding">
+              Hi! My name is Aahil and I am currently a student studying CS at the University of Calgary.
+              I have created this personal website as a place to share my projects and some of my photos.
+              Currently, I am working on an all in one calendar, weather and tasks app for the Google Play Store.
+            </p>
+            <p class="p-padding">
+              In the past I have worked on a multitude of projects ranging from a twitter bot to a Java based Gomoku
+              game to an arduino system that turns my fan on based on the temperature and a Java based Gomoku game.
+              I love learning and expirimenting with new things and so I have dabbled in many different languages and
+              technologies including Python, Java, Web Dev, Arduino and Node.js.
+            </p>
+            <p class="p-padding">
+              Please feel free to send me a message if you want to connect!
+            </p>
           </div>
         </div>
-      </div>
 
-      <!-- About me -->
-      <div class="container spacing">
-        <div class="heading3">About</div>
-        <div class="text1">
-          <p>
-            Hi! My name is Aahil and I am currently a student studying CS at the University of Calgary.
-            I have created this personal website as a place to share my projects and some of my photos.
-            Currently, I am working on an all in one calendar, weather and tasks app for the Google Play Store.
-          <p>
-          <p>
-            In the past I have worked on a multitude of projects ranging from a twitter bot to a Java based Gomoku
-            game to an arduino system that turns my fan on based on the temperature and a Java based Gomoku game.
-            I love learning and expirimenting with new things and so I have dabbled in many different languages and
-            technologies including Python, Java, Web Dev, Arduino and Node.js.
-          <p>
-            Please feel free to send me a message if you want to connect!
-          <p>
+        <!-- Projects -->
+        <div class="container spacing">
+          <div class="heading3">Projects</div>
+          <!-- Project 1 -->
+          <div class="row project-container">
+            <div class="col-4 heading4">Active: Android App </div>
+            <div class="col-8 text1">I have recently started working on an app that shows you everything you need to know
+              including the weather, news, calendar and your to-do list.
+              <div class="text2">Kotlin, Android Studio</div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="row project-container">
+            <div class="col-4 heading4">Twitter Bot</div>
+            <div class="col-8 text1">A twitter bot that tweets a random city and its current weather.
+              <div class="text2">Python, Tweepy</div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="row project-container">
+            <div class="col-4 heading4">Automatic Fan</div>
+            <div class="col-8 text1">Connected my remote controlled fan to an Arduino board that would turn it on/off depending
+              on the temperature.
+              <div class="text2">Java, Arduino</div>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <!-- Projects -->
-      <div class="container spacing">
-        <div class="heading3">Projects</div>
-        <!-- Project 1 -->
-        <div class="row project-container">
-          <div class="col-4 heading4">Active: Android App </div>
-          <div class="col-8 text1">I have recently started working on an app that shows you everything you need to know
-            including the weather, news, calendar and your to-do list.
-            <div class="text2">Kotlin, Android Studio</div>
+        <!-- Portfolio -->
+        <div class="container spacing">
+          <div class="heading3">Gallery</div>
+          <div class="row">
+            <!-- Images should be 16:9-->
+            <div class="col-4 portfoio-imgs">
+              <img src="Images/pic1.JPG" class="img-fluid" alt="image">
+            </div>
+            <div class="col-4 portfoio-imgs">
+              <img src="Images/pic2.jpg" class="img-fluid" alt="image">
+            </div>
+            <div class="col-4 portfoio-imgs">
+              <img src="Images/pic3.jpg" class="img-fluid" alt="image">
+            </div>
           </div>
-        </div>
-        <!-- Project 2 -->
-        <div class="row project-container">
-          <div class="col-4 heading4">Twitter Bot</div>
-          <div class="col-8 text1">A twitter bot that tweets a random city and its current weather.
-            <div class="text2">Python, Tweepy</div>
-          </div>
-        </div>
-        <!-- Project 3 -->
-        <div class="row project-container">
-          <div class="col-4 heading4">Automatic Fan</div>
-          <div class="col-8 text1">Connected my remote controlled fan to an Arduino board that would turn it on/off depending
-            on the temperature.
-            <div class="text2">Java, Arduino</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Portfolio -->
-      <div class="container spacing">
-        <div class="heading3">Gallery</div>
-        <div class="row">
-          <div class="col-4 portfoio-imgs">
-            <img src="Images/pic1.JPG" class="img-fluid" alt="image">
-          </div>
-          <div class="col-4 portfoio-imgs">
-            <img src="Images/pic2.JPG" class="img-fluid" alt="image">
-          </div>
-          <div class="col-4 portfoio-imgs">
-            <img src="Images/pic3.jpg" class="img-fluid" alt="image">
+          <div class="row">
+            <!-- Images should be 16:9-->
+            <div class="col-4 portfoio-imgs">
+              <img src="Images/pic4.jpg" class="img-fluid" alt="image">
+            </div>
+            <div class="col-4 portfoio-imgs">
+              <img src="Images/pic5.jpg" class="img-fluid" alt="image">
+            </div>
+            <div class="col-4 portfoio-imgs">
+              <img src="Images/pic6.jpg" class="img-fluid" alt="image">
+            </div>
           </div>
         </div>
       </div>
