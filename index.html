@@ -10,6 +10,8 @@
         <!-- Dark Mode -->
         <link rel="stylesheet" href="DarkMode/dark-mode.css">
 
+        <!-- Custom JS -->
+        <script src="indexjs.js"></script>
 
         <!-- JQuery -->
         <script
@@ -29,14 +31,14 @@
         <script src="https://use.fontawesome.com/releases/v5.10.2/js/all.js" data-auto-replace-svg="nest"></script>
     </head>
 
-    <body>
+    <body onload="typeWriter()">
       <!-- Main Div -->
       <div class="divMain">
 
         <!-- Name, description and dark theme toggle -->
         <div class="container divName">
             <!-- Name -->
-            <div class="heading1">Aahil Dawoodani</div>
+            <div id="heading1ID" class="heading1"></div>
             <!-- Description and Toggle -->
             <div class="row name-toggle">
               <!-- Description -->
