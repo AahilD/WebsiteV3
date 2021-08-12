@@ -6,3 +6,4 @@ In this version, I condensed all of the content to fit onto one page and made th
 
 TODO: 
 - Change sizing for icons and spacing for different screen sizes. 
+- Add ways to interact with images and videos
